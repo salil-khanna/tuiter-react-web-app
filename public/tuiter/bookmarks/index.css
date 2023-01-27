@@ -1,0 +1,121 @@
+.wd-top {
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+
+.wd-top h3 {
+    margin: 0;
+    size: 20px
+}
+
+.wd-top p {
+    margin: 0;
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-top .wd-dots {
+    float: right;
+    margin-right: 12px;
+    font-size: 2rem;
+}
+
+.wd-headerbar3 {
+    background-color:rgb(27, 30, 31);
+    border: 1px solid rgb(47, 51, 54);
+    margin-left: -16px;
+}
+
+.wd-profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+
+}
+
+.wd-profile .wd-profileimg {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.wd-tweettext {
+    margin-left: 12px;
+
+}
+
+.wd-profile p {
+    font-size: 15px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 3px;
+
+}
+
+.wd-profile .wd-userhandle {
+    color: lightgray;
+}
+
+.wd-tweet {
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.wd-maincontent {
+    max-width: 506px;
+    margin-bottom: 12px
+}
+
+.wd-imageanddesc img {
+    width: 504px;
+    height: 264px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+.wd-imageanddesc p {
+    display: block;
+}
+
+.wd-imageanddesc {
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 3%;
+    width: 504px;
+}
+
+.wd-desc {
+    padding: 12px;
+}
+
+.wd-desc .wd-gray {
+    color:rgb(130, 130, 130);
+}
+
+.wd-reactionbar {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(130, 130, 130);
+}
+
+.wd-reactionbar a {
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+}
+
+.wd-reactionbar .heart {
+    color:rgb(228, 0, 0);
+}
+
+.wd-reactionbar i {
+    margin-right: 12px;
+}
+
+.heart span {
+    margin-right: 12px;
+}

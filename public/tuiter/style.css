@@ -1,0 +1,21 @@
+.wd-page {
+    background-color: black;
+    color: white;
+}
+
+.wd-content {
+    margin-left: 16px;
+}
+
+.wd-headerbar2 {
+    margin-top: -0.4rem;
+    background-color:rgb(27, 30, 31);
+    border: 1px solid rgb(47, 51, 54);
+    margin-left: -16px;
+}
+
+.wd-pageborder {
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}

@@ -1,149 +1,15 @@
-.wd-searchbar {
-    display: flex;
-    flex-direction: row;
+.fa-stack {
+    margin-left: -0.5rem;
+    margin-right: -0.2rem;
 }
 
-.wd-searchbaricon {
-    width: 10%;
-    display: inline-block;
-    margin-right: 12px;
-    text-align: right;
-}
-
-.wd-searchbaricon a {
-    text-align: right;
-    font-size:4rem;
-    margin: 0;
-    color: lightblue;
-    text-decoration: none;
-}
-
-.wd-searchbarinput {
-    max-width: 90%;
-    margin-right: 0rem;
-    width: 90%;
-    display: inline-block;
-}
-
-.wd-searchbarinput img {
-    height: 3%;
-    width: auto;
-    mix-blend-mode: multiply;
-    position: absolute;
-    left: 3%;
-    top: 4.5%;
-
-}
-
-.wd-searchbarinput input {
-    margin-top: 1rem;
+.profile-img {
     width: 100%;
-    height: 2.5rem;
-    border-radius: 1.5rem;
-    padding-left: 3rem;
-    border: 1px solid rgb(47, 51, 54);
-    background-color: rgb(130, 130, 130);
-    color: white;
+    border-radius: 100%;
 }
 
-.wd-searchbarinput input::placeholder {
-    color: white;
-}
-
-.wd-searchbarinput input::after {
-    color: white;
-}
-
-.wd-hyperlinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    font-size: 15px;
-}
-
-.wd-hyperlinks p {
-    color: rgb(110,118,125);
-    padding: 16px;
-}
-
-.wd-hyperlinks .wd-selectedlink {
-    color: rgb(29,161,242);
-    border-bottom: 3px solid #1f67db;
-}
-
-.wd-headerbar {
-    margin-top: -1rem;
-    height: 1rem;
-    background-color:rgb(27, 30, 31);
-    border: 2px solid rgb(47, 51, 54);
-    margin-left: -16px;
-}
-
-.wd-suggestedtuit {
-    margin-bottom: 1rem;
-    margin-top: 0.3rem;
-}
-
-.wd-suggestedtuit p {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    margin-top: 3px;
-    margin-bottom: 2px
-}
-
-.wd-suggestedtuit h3 {
-    color: white;
-    margin: 0 auto;
-    margin-bottom: 4px;
-}
-
-.wd-suggestedtop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 15px;
-}
-
-.wd-suggestedtop .wd-dots {
-    font-size: 1.6rem;
-    margin: 0;
-    margin-bottom: -6px;
-    margin-right: 1rem;
-}
-
-.wd-forimage {
-    height: 8rem;
-}
-
-.wd-suggestedtuit img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-right: 16px;
-    border-radius: 10%;
-}
-
-.wd-suggestedauthor {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-.wd-suggestedauthor h5 {
-    color: white;
-    margin: 0;
-    margin-top: 3px;
-}
-
-.wd-suggestedauthor .wd-date {
-    color: rgb(110, 118, 125);
-    margin-left: 10px;
-    font-size: 14px;
-    margin-top: 4px;
-    margin-bottom: 2px
-}
-
-.wd-forimage .wd-suggestedtopic {
-    font-size: 16px;
+.search {
+    font-size: 25px;
+    bottom: 5px;
+    left: 26px;
 }

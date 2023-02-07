@@ -1,11 +1,11 @@
-.fa-stack {
-    margin-left: -0.5rem;
-    margin-right: -0.2rem;
-}
-
 .profile-img {
     width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
+}
+
+.topic-img {
+    width: 100%;
+    border-radius: 25%;
 }
 
 .search {

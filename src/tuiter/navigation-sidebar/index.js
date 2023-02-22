@@ -13,35 +13,35 @@ const NavigationSidebar = (
      </a>
      <a className={`list-group-item
                     ${active === 'home'?'active':''}`} href="/tuiter">
-       <i class="fa fa-home"></i> <span class="d-none d-xl-inline">Home</span> 
+       <i className="fa fa-home"></i> <span className="d-none d-xl-inline">Home</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'explore'?'active':''}`} href="/tuiter">
-       <i class="fa fa-hashtag"></i> <span class="d-none d-xl-inline">Explore</span> 
+       <i className="fa fa-hashtag"></i> <span className="d-none d-xl-inline">Explore</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`} href="/tuiter">
-       <i class="fa fa-bell"></i> <span class="d-none d-xl-inline">Notifications</span> 
+       <i className="fa fa-bell"></i> <span className="d-none d-xl-inline">Notifications</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'messages'?'active':''}`} href="/tuiter">
-       <i class="fa fa-envelope"></i> <span class="d-none d-xl-inline">Message</span> 
+       <i className="fa fa-envelope"></i> <span className="d-none d-xl-inline">Message</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`} href="/tuiter">
-       <i class="fa fa-bookmark"></i> <span class="d-none d-xl-inline">Bookmarks</span> 
+       <i className="fa fa-bookmark"></i> <span className="d-none d-xl-inline">Bookmarks</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'lists'?'active':''}`} href="/tuiter">
-       <i class="fa fa-list"></i> <span class="d-none d-xl-inline">Lists</span> 
+       <i className="fa fa-list"></i> <span className="d-none d-xl-inline">Lists</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'profile'?'active':''}`} href="/tuiter">
-       <i class="fa fa-user"></i> <span class="d-none d-xl-inline">Profile</span> 
+       <i className="fa fa-user"></i> <span className="d-none d-xl-inline">Profile</span> 
      </a>
      <a className={`list-group-item
                     ${active === 'more'?'active':''}`} href="/tuiter">
-       <i class="fa fa-ellipsis-h"></i> <span class="d-none d-xl-inline">More</span> 
+       <i className="fa fa-ellipsis-h"></i> <span className="d-none d-xl-inline">More</span> 
      </a>
    </div>
  );

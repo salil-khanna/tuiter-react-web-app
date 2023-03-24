@@ -8,7 +8,7 @@ const TuitItem = (
         tuit =   {
             "_id": 123,
             "topic": "Space",
-            "userName": "SpaceX",
+            "username": "SpaceX",
             "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
             "time": "2h",
             "image": "tesla.png",
@@ -34,7 +34,7 @@ const TuitItem = (
         </div>
         <div className="col-10">
             <div>
-                <span className="fw-bold">{tuit.userName} </span>
+                <span className="fw-bold">{tuit.username} </span>
                 <i className="bi bi-check-circle-fill"></i>
                 <span className="fw-light"> {tuit.handle} </span>
                 <span className="text-muted"> • {tuit.time}</span>

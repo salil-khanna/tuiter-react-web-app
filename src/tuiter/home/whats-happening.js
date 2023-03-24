@@ -9,7 +9,7 @@ const WhatsHappening = () => {
  const dispatch = useDispatch();
  const tuitClickHandler = () => {
     const currentUser = {
-        "userName": "NASA",
+        "username": "NASA",
         "handle": "@nasa",
         "image": "nasa.png",
     };
